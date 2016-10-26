@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="yandex-map.css">
+	<style>
+		html, body {
+			height: 100%;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		.ctr {
+			position: relative;
+			min-width: 320px;
+			width: 100%;
+			max-width: 980px;
+			margin-right: auto;
+			margin-left: auto;
+			padding-top: 10px;
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+
+		.map {
+			height: 320px;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="ctr">
+		<div class="map  js-yandex-map" data-center="[57.00701104513126,40.97610370982169]" data-preset="" data-hint="Мы здесь!" data-balloon="" data-icon="placemark.png" data-icon-size="[31,50]" data-icon-offset=""></div>
+	</div>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="yandex-map.js"></script>
+</body>
+</html>
